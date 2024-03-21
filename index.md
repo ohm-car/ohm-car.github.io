@@ -3,5 +3,5 @@ I am Omkar Kulkarni, a Computer Science PhD Student at UMBC. My primary research
 
 [My Resume](Resume_Omkar.pdf){:target="_blank"}   &emsp;&emsp;&emsp;&emsp;&emsp;     [LinkedIn](https://www.linkedin.com/in/omkar-kul/)
 
-<h2>Publications</h2>
+<h1>Publications</h1>
 
