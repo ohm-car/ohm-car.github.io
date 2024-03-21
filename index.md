@@ -3,5 +3,8 @@ I am Omkar Kulkarni, a Computer Science PhD Student at UMBC. My primary research
 
 [My Resume](Resume_Omkar.pdf){:target="_blank"}   &emsp;&emsp;&emsp;&emsp;&emsp;     [LinkedIn](https://www.linkedin.com/in/omkar-kul/)
 
-<h3>Publications</h3>
+## Publications
 
+*  "3D Reconstruction of the Carotid Artery from Handheld Ultrasound Videos”  in proceedings of the First
+IEEE Conference of Artificial Intelligence for Medicine, Health, and Care, 2024. Abhishikta
+Bandyopadhyay<sup>*</sup>, Omkar Kulkarni<sup>*</sup>, and Tim Oates. <sup>* denotes equal contribution</sup>
