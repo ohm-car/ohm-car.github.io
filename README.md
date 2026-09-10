@@ -4,7 +4,7 @@
 
 [![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
-**A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) starter for academic websites.**
+**A simple, clean, and responsive (OMKAR'S) [Jekyll](https://jekyllrb.com/) starter for academic websites.**
 
 _In `v1.x`, al-folio is a **thin starter, not a theme**: the runtime ships as independently versioned plugin gems, so you pick up fixes and features by bumping a pinned version in your `Gemfile` instead of merging theme internals into your site._
 
