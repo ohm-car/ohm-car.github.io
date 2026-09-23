@@ -1,5 +1,9 @@
 # A website template for academics
 
+<h3 align="center">
+  <a href="https://ohm-car.github.io/">See the live demo &rarr;</a>
+</h3>
+
 <p align="center">
   <img src="images/screenshots/home-hero.webp" alt="Home page in light and dark mode" width="900">
 </p>
@@ -13,10 +17,6 @@
   <a href="https://github.com/sbryngelson/academic-website-template/actions/workflows/deploy.yml"><img src="https://github.com/sbryngelson/academic-website-template/actions/workflows/deploy.yml/badge.svg" alt="Build and Deploy"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
 </p>
-
-<h3 align="center">
-  <a href="https://sbryngelson.github.io/academic-website-template/">See the live demo &rarr;</a>
-</h3>
 
 <p align="center">
   <a href="#quick-start">Quick Start</a> &middot;
