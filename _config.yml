@@ -2,7 +2,7 @@
 # STEP 1: Your Identity (required)
 # ============================================================
 name: "Omkar Kulkarni"
-title: "PhD Student"
+title: "Computer Science PhD Student"
 institution: "University of Maryland, Baltimore County"
 email: o.kulkarni@hotmail.com
 photo: placeholder.svg  # place your photo in images/ and update this
@@ -13,7 +13,7 @@ photo: placeholder.svg  # place your photo in images/ and update this
 links:
   google_scholar: "https://scholar.google.com/citations?user=GIM214AAAAAJ&hl=en"
   github: "https://github.com/ohm-car"
-  researchgate: ""
+  researchgate: "https://www.researchgate.net/profile/Omkar-Kulkarni-9"
   orcid: "https://orcid.org/0009-0007-1405-6442"
   twitter: ""
   linkedin: "https://www.linkedin.com/in/omkar-kul/"
@@ -26,7 +26,7 @@ links:
 accent_color: "#1a7a6d"      # theme color; light and dark variants are derived automatically
 dark_mode: true              # set to false to disable dark mode entirely
 math: false                  # true loads MathJax on every page; or add `math: true` to individual pages
-description: "Omkar Kulkarni's personal website"  # meta description for search engines
+description: "Omkar Kulkarni's personal/academic website"  # meta description for search engines
 
 # When deploying with the included GitHub Actions workflow these are filled
 # in automatically from your Pages settings (user site, project site, or
@@ -51,11 +51,11 @@ nav_pages:
   - name: about
   - name: publications
   - name: talks
-  - name: research
+  # - name: research
   # - name: software
   # - name: team
   - name: teaching
-  - name: blog
+  # - name: blog
   - name: resume
 
 # ============================================================

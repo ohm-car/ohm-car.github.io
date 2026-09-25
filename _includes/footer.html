@@ -12,7 +12,8 @@
       <h2 class="footer-heading">Contact</h2>
       <p>
         {% include icon.html name="envelope" %} {% include protected-email.html %}<br>
-        {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}">{% include icon.html name="github" %} GitHub</a><br>{% endif %}
+        <!-- {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}">{% include icon.html name="github" %} GitHub</a><br>{% endif %} -->
+         {% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" >{% include icon.html name="linkedin" %} LinkedIn</a>{% endif %}
       </p>
     </div>
     <div>
@@ -20,7 +21,11 @@
       <p>
         {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}">{% include icon.html name="google-scholar" %} Google Scholar</a><br>{% endif %}
         {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}">{% include icon.html name="researchgate" %} ResearchGate</a><br>{% endif %}
-        This website was made using <a href="https://github.com/sbryngelson/academic-website-template">{% include icon.html name="github" %}sbryngelson's template</a>
+        {% if site.links.orcid and site.links.orcid != "" %}<a href="{{ site.links.orcid }}">{% include icon.html name="orcid" %} ORCID</a><br>{% endif %}
+        {% if site.links.twitter and site.links.twitter != "" %}<a href="{{ site.links.twitter }}">{% include icon.html name="x-twitter" %} Twitter</a><br>{% endif %}
+        {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a>{% endif %}
+      </p>
+        This website was made using <a href="https://github.com/sbryngelson/academic-website-template">sbryngelson's template</a>
       </p>
     </div>
   </div>
