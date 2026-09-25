@@ -15,7 +15,11 @@
         </li>
         {% for nav in site.nav_pages %}
         <li class="nav-item">
+          {% if nav.name == "resume" %}
+          <a class="nav-link" href="{{ '/papers/Resume_Omkar.pdf' | relative_url }}" target="_blank" rel="noopener">{% if nav.label %}{{ nav.label }}{% else %}{{ nav.name | capitalize }}{% endif %}</a>
+          {% else %}
           <a class="nav-link{% if page.url contains nav.name %} active{% endif %}" href="{{ nav.name | prepend: '/' | relative_url }}">{% if nav.label %}{{ nav.label }}{% else %}{{ nav.name | capitalize }}{% endif %}</a>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>

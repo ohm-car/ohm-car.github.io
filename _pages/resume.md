@@ -4,9 +4,4 @@ layout: page
 permalink: /resume/
 ---
 
-<meta http-equiv="refresh" content="0; url={{ '/papers/Resume_Omkar.pdf' | relative_url }}">
-<script>
-	window.location.replace("{{ '/papers/Resume_Omkar.pdf' | relative_url }}");
-</script>
-
-<p>Redirecting to the <a href="{{ '/papers/Resume_Omkar.pdf' | relative_url }}">resume PDF</a>...</p>
+<p><a href="{{ '/papers/Resume_Omkar.pdf' | relative_url }}" target="_blank" rel="noopener">Open resume PDF</a></p>
