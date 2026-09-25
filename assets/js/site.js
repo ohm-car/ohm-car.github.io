@@ -91,6 +91,29 @@
 
   // ----- Protected Email -----
 
+  function randomIndex(max) {
+    if (window.crypto && window.crypto.getRandomValues) {
+      var values = new Uint32Array(1);
+      var limit = Math.floor(0x100000000 / max) * max;
+      do {
+        window.crypto.getRandomValues(values);
+      } while (values[0] >= limit);
+      return values[0] % max;
+    }
+    return Math.floor(Math.random() * max);
+  }
+
+  function shuffleString(value) {
+    var characters = value.split('');
+    for (var index = characters.length - 1; index > 0; index--) {
+      var swapIndex = randomIndex(index + 1);
+      var character = characters[index];
+      characters[index] = characters[swapIndex];
+      characters[swapIndex] = character;
+    }
+    return characters.join('');
+  }
+
   document.querySelectorAll('.protected-email').forEach(function (email) {
     var scrambledText = email.querySelector('.protected-email-text');
     var link = email.querySelector('.protected-email-link');
@@ -99,8 +122,10 @@
 
     if (!scrambledText || !link || !button || !scrambled) return;
 
+    var address = scrambled.split('').reverse().join('');
+    scrambledText.textContent = shuffleString(address);
+
     button.addEventListener('click', function () {
-      var address = scrambled.split('').reverse().join('');
       link.textContent = address;
       link.href = 'mailto:' + address;
       link.hidden = false;
