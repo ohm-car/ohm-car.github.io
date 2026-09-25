@@ -87,3 +87,38 @@
     background-color: var(--accent-light);
   }
 }
+
+.protected-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  vertical-align: middle;
+
+  .protected-email-text {
+    font-family: 'JetBrains Mono', monospace;
+    direction: ltr;
+    unicode-bidi: plaintext;
+  }
+
+  .btn-email {
+    padding: 0.125rem 0.5rem;
+    font-size: 0.625rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    border-color: var(--border-color);
+    background-color: transparent;
+
+    &:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+  }
+}
+
+.protected-email-compact {
+  .protected-email-text {
+    max-width: 12rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

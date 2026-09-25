@@ -1,0 +1,5 @@
+<span class="protected-email{% if include.compact %} protected-email-compact{% endif %}" data-email-scrambled="{{ site.email | split: '' | reverse | join: '' }}">
+  <span class="protected-email-text">{{ site.email | split: '' | reverse | join: '' }}</span>
+  <a class="protected-email-link" hidden></a>
+  <button type="button" class="btn-pill btn-email">Unscramble</button>
+</span>

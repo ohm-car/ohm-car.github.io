@@ -89,6 +89,26 @@
     });
   }
 
+  // ----- Protected Email -----
+
+  document.querySelectorAll('.protected-email').forEach(function (email) {
+    var scrambledText = email.querySelector('.protected-email-text');
+    var link = email.querySelector('.protected-email-link');
+    var button = email.querySelector('.btn-email');
+    var scrambled = email.getAttribute('data-email-scrambled');
+
+    if (!scrambledText || !link || !button || !scrambled) return;
+
+    button.addEventListener('click', function () {
+      var address = scrambled.split('').reverse().join('');
+      link.textContent = address;
+      link.href = 'mailto:' + address;
+      link.hidden = false;
+      scrambledText.hidden = true;
+      button.hidden = true;
+    });
+  });
+
   // ----- Copy BibTeX Button -----
 
   document.querySelectorAll('.pub-collapse').forEach(function (collapse) {
