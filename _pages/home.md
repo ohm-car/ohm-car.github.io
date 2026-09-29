@@ -8,6 +8,7 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 Introduce your research in a few sentences. This first paragraph is set slightly larger than the rest.
+I design and research AI algorithms in the Medical Imaging domain (shift!). My research primarily covers CV tasks to identify ROI, diagnosis, weak supervision, and more lately denoising/harmonizing Medical Images.
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
