@@ -5,10 +5,20 @@ permalink: /
 ---
 
 <h1 class="home-hero">{{ site.name }}</h1>
-<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
+<!-- <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p> -->
+<p class="home-hero-sub">PhD Student, Medical Imaging AI Researcher</p>
 
 Introduce your research in a few sentences. This first paragraph is set slightly larger than the rest.
 I design and research AI algorithms in the Medical Imaging domain (shift!). My research primarily covers CV tasks to identify ROI, diagnosis, weak supervision, and more lately denoising/harmonizing Medical Images.
+
+
+I am a PhD student at CoRAL Lab, University of Maryland, Baltimore County. I am broadly interested in all things Computer Vision, and I specialize in Medical Imaging. Currently my broad area of interest is quality control, reconstruction, and denoising for Medical Images, and previously I have worked on highly restrictive weakly supervised segmentation.
+Broader research interests
+Currently working on ___
+Previous research in ___
+Currently looking for summer internship
+If you want to talk about research, or coffee, or cats
+Aside from research I love ____
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
