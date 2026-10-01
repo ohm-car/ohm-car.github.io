@@ -2,3 +2,9 @@
 # News items shown on the home page sidebar.
 # The 3 most recent are shown; all appear on /allnews.
 # Each entry needs: date, headline
+
+- date: 7 July, 2026
+  headline: "I presented my doctoral research proposal at the AIME 2026 Doctoral Consortium in Ottawa, Canada!"
+
+- date: 20 April, 2026
+  headline: "Our paper on Weakly Supervised Segmentation in Medical Images was accepted at AIME 2026!"
