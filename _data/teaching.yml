@@ -3,33 +3,38 @@
 # Each entry needs: course, title
 # Optional: term, role, url, description
 
-course: CMSC 478
-title: Introduction to Machine Learning
-term: Fall 2026
-role: Teaching Assistant
-description: An introductory course in machine learning. I assisted in grading assignments, and holding office hours for students.
+- course: Physics 1, 2, 3
+  title: The Feynman Lectures on Physics
+  term: 1961-63
+  url: https://www.feynmanlectures.caltech.edu/
 
-# course: CMSC 473
-# title: Introduction to Natural Language Processing
-# term: Spring 2026
-# role: Teaching Assistant
-# description: An introductory course in natural language processing. I assisted in grading assignments, and holding office hours for students.
-# url: https://laramartin.net/NLP-class/
+- course: CMSC 478
+  title: Introduction to Machine Learning
+  term: Fall 2026
+  role: Teaching Assistant
+  description: An introductory course in machine learning. I assisted in grading assignments, and holding office hours for students.
 
-# course: CMSC 411
-# title: Computer Architecture
-# term: Spring 2025, Fall 2025
-# role: Teaching Assistant
-# description: An introductory course in computer architecture. I assisted in grading assignments, and holding office hours for students.
+- course: CMSC 473
+  title: Introduction to Natural Language Processing
+  term: Spring 2026
+  role: Teaching Assistant
+  description: An introductory course in natural language processing. I assisted in grading assignments, and holding office hours for students.
+  url: https://laramartin.net/NLP-class/
 
-# course: CMSC 313
-# title: Computer Organization and Assembly Language
-# term: Spring 2025
-# role: Teaching Assistant
-# description: An introductory course in computer organization and assembly language. I assisted in grading assignments, and holding office hours for students.
+- course: CMSC 411
+  title: Computer Architecture
+  term: Spring 2025, Fall 2025
+  role: Teaching Assistant
+  description: An introductory course in computer architecture. I assisted in grading assignments, and holding office hours for students.
 
-# course: DATA 690-4
-# title: Practical Deep Learning
-# term: Fall 2026
-# role: Teaching Assistant
-# description: A hands-on course in deep learning. I assisted in grading assignments, and holding office hours for students.
+- course: CMSC 313
+  title: Computer Organization and Assembly Language
+  term: Spring 2025
+  role: Teaching Assistant
+  description: An introductory course in computer organization and assembly language. I assisted in grading assignments, and holding office hours for students.
+
+- course: DATA 690-4
+  title: Practical Deep Learning
+  term: Fall 2026
+  role: Teaching Assistant
+  description: A hands-on course in deep learning. I assisted in grading assignments, and holding office hours for students.
