@@ -5,7 +5,7 @@ permalink: /teaching/
 ---
 
 # Teaching
-
+Below are all the courses I have assisted teach as a graduate teaching assistant.
 {% if site.data.teaching.size > 0 %}
 <div class="section-card" markdown="0">
 <ul class="teaching-list">

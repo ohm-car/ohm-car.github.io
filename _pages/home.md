@@ -8,17 +8,11 @@ permalink: /
 <!-- <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p> -->
 <p class="home-hero-sub">PhD Student, Medical Imaging AI Researcher</p>
 
-Introduce your research in a few sentences. This first paragraph is set slightly larger than the rest.
-I design and research AI algorithms in the Medical Imaging domain (shift!). My research primarily covers CV tasks to identify ROI, diagnosis, weak supervision, and more lately denoising/harmonizing Medical Images.
 
+I am a PhD student at CORAL Lab, University of Maryland, Baltimore County, and I am advised by <a href="https://www.csee.umbc.edu/people/tenure-track-faculty/tim-oates/">Dr. Tim Oates</a>. I am broadly interested in all things Computer Vision, and I specialize in Medical Imaging. Currently my area of research is quality control, reconstruction, and denoising for Medical Images, and previously I have worked on highly restrictive weakly supervised segmentation. I am also interested in developing effective multi-agent systems collaborating with humans to strategize in a team environment.
+Currently, I am looking for Summer 2027 internships broadly in Medical Image Analysis.
 
-I am a PhD student at CoRAL Lab, University of Maryland, Baltimore County. I am broadly interested in all things Computer Vision, and I specialize in Medical Imaging. Currently my broad area of interest is quality control, reconstruction, and denoising for Medical Images, and previously I have worked on highly restrictive weakly supervised segmentation.
-Broader research interests
-Currently working on ___
-Previous research in ___
-Currently looking for summer internship
-If you want to talk about research, or coffee, or cats
-Aside from research I love ____
+Apart from my research, I enjoy brewing up espresso-based coffees, cycling, and cats. If you would like to contact me, please send me an email!
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
@@ -30,6 +24,6 @@ Aside from research I love ____
 </div>
 {% endif %}
 
-## About me
+<!-- ## About me
 
-Your biography goes here. The README shows how to add research-area chips, callout boxes, and a banner image.
+Your biography goes here. The README shows how to add research-area chips, callout boxes, and a banner image. -->
