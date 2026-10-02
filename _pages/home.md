@@ -14,7 +14,7 @@ I am a PhD student at CORAL Lab, University of Maryland, Baltimore County, and I
 Currently, I am looking for Summer 2027 internships broadly in Medical Image Analysis.
 <!-- Prior to this, I did a Bachelor's of Engineering in Computer Science from <a href="https://www.bits-pilani.ac.in/goa">BITS Pilani</a>, and I worked as a Software Developer at Innova Systems in Hyderabad, India. -->
 
-Apart from my research, I enjoy brewing up espresso-based coffeeswith my fancy espresso machine, long/short distance cycling, and cats (HUGE fan of cats). If you'd like to get in touch or meet, please send me an email!
+<!-- Apart from my research, I enjoy brewing up espresso-based coffeeswith my fancy espresso machine, long/short distance cycling, and cats (HUGE fan of cats). If you'd like to get in touch or meet, please send me an email! -->
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
